@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='style.css'>
+    <title>Super Oxxo</title>
+</head>
+<body>
+    <h1 class='Titulazo'>Super Oxxo</h1>
+    
+    <div class='form-add'>
+    <div>
+    <form action="#" id='form-add'>
+        <header>
+            <h2>Agregar articulo</h2>
+        </header>
+    </div>
+
+    <div>
+        <label for='nombre'>Nombre del articulo: </label>
+        <input id='nombre' type='text'>
+    </div>
+
+    <div>
+        <label for='descripcion'>Descripcion del articulo: </label>
+        <input id='descripcion' type='text'>
+    </div>
+
+    <div>
+        <label for='cantidad'>Cantidad de articulos a agregar: </label>
+        <input id='cantidad' type='number'>
+    </div>
+
+    <div>
+        <laber for='costo'>Costo del articulo: </laber>
+        <input id='costo' type='number'>
+    </div> </br>
+
+    <button type='submit' class='btn-addprod'>Agregar</button>
+    </form>
+
+    </div>
+
+    <div id='msg1'>
+    </div>
+
+    <div class='form-del'>
+        <form action="#" id='form-del'>
+            <header>
+                <h2>Eliminar articulo</h2>
+            </header>
+
+            <div>
+                <label for='codeDel'>Codigo del articulo a borrar: </label>
+                <input id='codeDel' type="text">
+            </div>
+            <br/>
+            <button type='submit' class='btn-delprod'>Borrar</button>
+
+        </form>
+    </div>
+
+    <div class='form-search'>
+        <form action='#' id='form-search'>
+            <header>
+                <h2>Buscar articulo</h2>
+            </header>
+            <div>
+                <label for='codeSearch'>Codigo del articulo a buscar: </label>
+                <input id='codeSearch' type="text">
+            </div>
+            <br/>
+            <button type='submit' class='btn-searchprod'>Buscar</button>
+
+        </form>
+    </div>
+
+    <div class='form-change'>
+        <form action='#' id='form-change'>
+            <header>
+                <h2>Insertar posición</h2>
+            </header>
+            <div>
+                <label for='prodChange'>Posición a colocar el articulo: </label>
+                <input id='prodChanger' type="number">
+            </div>
+            <br/>
+            <button type='submit' class='btn-searchprod'>Cambiar</button>
+
+        </form>
+    </div>
+
+    <div id='productos' class='list-product'>
+        <h2>Lista de productos en inventario</h2>
+        <ul id='product-list'>
+        </ul>
+
+        <button id='btn' class='btn'>Lista de productos</button>
+        <button id='btn2' class='btn2'>Lista de productos invertida</button>
+    </div> </br>
+    <div id='historial' class='history'>
+        <h1>Busquedas y acciones realizadas</h1>
+        <ul id="history"></ul>
+    </div>
+
+</body>
+    <script src="/main.js" type="module"></script>
+</html>

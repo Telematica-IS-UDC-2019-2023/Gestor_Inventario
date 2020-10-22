@@ -1,0 +1,121 @@
+.form-add {
+    text-align: center;
+    background-color: #2B2D42;
+    width: 33%;
+    border-radius: 20px;
+    align-content: center;
+    color: aliceblue; 
+    margin: 10px auto;
+}
+
+.form-del {
+    text-align: center;
+    background-color: #2B2D42;
+    width: 33%;
+    border-radius: 20px;
+    align-content: center;
+    color: aliceblue; 
+    margin: 20px auto;
+}
+
+.form-search {
+    text-align: center;
+    background-color: #2B2D42;
+    width: 33%;
+    border-radius: 20px;
+    align-content: center;
+    color: aliceblue; 
+    margin: 20px auto; 
+}
+
+.form-change {
+    text-align: center;
+    background-color: #2B2D42;
+    width: 33%;
+    border-radius: 20px;
+    align-content: center;
+    color: aliceblue; 
+    margin: 20px auto; 
+}
+
+.btn-addprod {
+    color: aliceblue;
+    background-color: #BE1F44;
+}
+
+.btn-delprod {
+    color: aliceblue;
+    background-color: #BE1F44;
+    border-radius: 15px;
+    width: 20%;
+    height: 20%;
+}
+
+.btn-searchprod {
+    color: aliceblue;
+    background-color: #BE1F44;
+    border-radius: 15px;
+    width: 20%;
+    height: 20%;
+}
+
+.btn {
+    color: aliceblue;
+    background-color: #BE1F44;
+    border-radius: 15px;
+    width: 40%;
+    height: 20%;  
+}
+
+.btn2 {
+    color: aliceblue;
+    background-color: #BE1F44;
+    border-radius: 15px;
+    width: 45%;
+    height: 20%;
+}
+
+.list-product {
+    text-align: center;
+    background-color: #2B2D42;
+    width: 33%;
+    border-radius: 20px;
+    align-content: center;
+    color: aliceblue; 
+    margin: 20px auto;  
+}
+
+.history {
+    text-align: center;
+    background-color: #2B2D42;
+    width: 33%;
+    border-radius: 20px;
+    align-content: center;
+    color: aliceblue; 
+    margin: 20px auto;   
+}
+
+.Titulazo{
+    text-align: center;
+    align-content: center;
+}
+
+.error{
+    text-align: center;
+}
+
+.btn-addprod{
+    border-radius: 15px;
+    width: 20%;
+    height: 20%;
+}
+
+body {
+    background-color: #8D99AE;
+}
+
+h1 {
+    color: aliceblue; 
+}
+
+
